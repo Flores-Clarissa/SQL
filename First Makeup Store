@@ -1,0 +1,48 @@
+CREATE TABLE makeup_store (id INTEGER PRIMARY KEY, name TEXT, oz INTEGER, price INTEGER, aisle INTEGER);
+
+
+INSERT INTO makeup_store VALUES
+(1, 'Foundation', 1, 15.99, 3);
+
+INSERT INTO makeup_store VALUES
+(2, 'Pressed Powder', 1.5, 12.99, 3);
+
+INSERT INTO makeup_store VALUES
+(3, 'Black Mascara', 1, 8.99, 2);
+
+INSERT INTO makeup_store VALUES
+(4, 'Brown Mascara', 1, 8.99, 2);
+
+INSERT INTO makeup_store VALUES
+(5, 'Pink Blush', 1, 7.99, 1);
+
+INSERT INTO makeup_store VALUES
+(6, 'Purple Blush', 1, 7.99, 1);
+
+INSERT INTO makeup_store VALUES
+(7, 'Gold Bronzer', 1, 9.99, 4);
+
+INSERT INTO makeup_store VALUES
+(8, 'Brown Bronzer', 1, 9.99, 4);
+
+INSERT INTO makeup_store VALUES
+(9, 'Brown Eye Brow Pencil', .2, 4.99, 4);
+
+INSERT INTO makeup_store VALUES
+(10, 'Blonde Eye Brow Pencil', .2, 4.99, 4);
+
+INSERT INTO makeup_store VALUES
+(11, 'Red Eye Brow Pencil', .2, 4.99, 4);
+
+INSERT INTO makeup_store VALUES
+(12, 'Gold Highlighter', 1, 6.99, 5);
+
+INSERT INTO makeup_store VALUES
+(13, 'Red Lipstick', .5, 5.99, 5);
+
+INSERT INTO makeup_store VALUES
+(14, 'Pink Lipstick', .5, 5.99, 5);
+
+INSERT INTO makeup_store VALUES
+(15, 'Nude Lipstick', .5, 5.99, 5);
+SELECT * FROM makeup_store;
